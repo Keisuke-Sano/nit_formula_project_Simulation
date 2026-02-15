@@ -1,0 +1,20 @@
+# Lap Time Simulation
+
+車両4輪シミュレーションとタイヤモデルを用いたラップタイムシミュレーション
+・コーナリングモデル：ヨー，ロール，4輪モデル
+・加減速モデル：MFeval (ピッチング，荷重移動なし)
+
+-用いるソフト
+・MATLAB
+・Simulink
+・vehicle dynamics block set
+・MFeval
+
+-使い方
+1. vehicle_parameter_nit00.mlxでパラメータ設定
+2. GGV_map_creation_4.mlxで車両のGGV Mapを作成
+3. 走るコースを決め，Lap_time_simulation1.mlxでシミュレーション
+
+figureフォルダに実行例があります．
+
+MATLAB 2025bで動作確認済 (2026/2/1)
